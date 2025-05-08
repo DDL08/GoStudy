@@ -1,6 +1,11 @@
 # GoStudy
 学go的时候开的
 
+[![CodeSize](https://img.shields.io/github/languages/code-size/DDL08/GoStudy)](https://github.com/DDL08/GoStudy)
+
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
+
+
 <img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
 
 ## 一
@@ -62,3 +67,6 @@ curl.exe "http://localhost:9999/v1/hello?name=121"
 
 
 ## 五
+
+框架需要有一个插口，允许用户自己定义功能，嵌入到框架中，就是中间件(middlewares)
+
