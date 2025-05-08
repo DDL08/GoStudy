@@ -16,12 +16,13 @@ gee/
   |--go.mod
 main.go
 go.mod
-<img width="200%" src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" />
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
+
 ## 二
 新建router.go、Context.go
 
 结构体不再是路由map，而是声明了一个指针函数的结构体，然后单开一个router.go里面装路由map，Context是把请求个响应的请求方法+文本类型进行一个封装
-<img width="200%" src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" />
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
 ## 三
 新建tire.go
 
