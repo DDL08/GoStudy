@@ -1,7 +1,8 @@
 # GoStudy
 学go的时候开的
 
-<img width="200%" src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" />
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
+
 ## 一
 ### 1
 net/http 标准库来实现一个简单的 HTTP 服务器。这个代码定义了两个 HTTP 处理函数 Handler，然后使用 http.HandleFunc 将它们分别绑定到路径 / 和 /hello 
