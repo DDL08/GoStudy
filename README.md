@@ -1,4 +1,4 @@
-<h2>GoStudy</h2>
+# GoStudy
 学go的时候开的
 
 <img width="200%" src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" />
