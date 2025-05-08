@@ -1,5 +1,7 @@
-# GoStudy
+<h2>GoStudy</h2>
 学go的时候开的
+
+<img width="200%" src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" />
 ## 一
 ### 1
 net/http 标准库来实现一个简单的 HTTP 服务器。这个代码定义了两个 HTTP 处理函数 Handler，然后使用 http.HandleFunc 将它们分别绑定到路径 / 和 /hello 
@@ -13,16 +15,16 @@ gee/
   |--go.mod
 main.go
 go.mod
-
+<img width="200%" src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" />
 ## 二
 新建router.go、Context.go
 
 结构体不再是路由map，而是声明了一个指针函数的结构体，然后单开一个router.go里面装路由map，Context是把请求个响应的请求方法+文本类型进行一个封装
-
+<img width="200%" src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" />
 ## 三
 新建tire.go
 
 实现动态路由的注册，新建tire.go这个node结构，来实现路由节点的插入以及查找
 修改👇
 Context结构小改--->新加属性	Params     map[string]string
-router结构大改--->
+router结构大改--->改添加路由对应tire，新加getRoute+getRoutes
