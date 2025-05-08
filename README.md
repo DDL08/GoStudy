@@ -42,3 +42,23 @@ go.mod
 Context结构小改--->新加属性	Params     map[string]string
 
 router结构大改--->改添加路由对应tire，新加getRoute+getRoutes
+
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
+
+## 四
+实现路由分组控制(Route Group Control)
+
+新建结构体RouterGroup struct
+
+原因:某一组路由需要相似的处理
+
+测试👇
+
+curl.exe "http://localhost:9999/v2/login/" -X POST -d "username=1" -d "password=2"
+
+curl.exe "http://localhost:9999/v2/hello/121"
+
+curl.exe "http://localhost:9999/v1/hello?name=121"
+
+
+## 五
