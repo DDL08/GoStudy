@@ -58,4 +58,11 @@ func main() {
 	})
 
 	r.Run(":9999")
+
+	/*	暴露本地文件
+		r := gee.New()
+		r.Static("/assets", "/usr/geektutu/blog/static")
+		// 或相对路径 r.Static("/assets", "./static")
+		r.Run(":9999")
+	*/
 }

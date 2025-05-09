@@ -65,8 +65,40 @@ curl.exe "http://localhost:9999/v2/hello/121"
 
 curl.exe "http://localhost:9999/v1/hello?name=121"
 
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
 
 ## 五
 
 框架需要有一个插口，允许用户自己定义功能，嵌入到框架中，就是中间件(middlewares)
+
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
+
+## 六
+
+实现模板渲染
+
+新建templates文件夹，里面放置模板文件
+
+Engine 添加了 template.Template 和 template.FuncMap对象，前者将所有的模板加载进内存，后者是所有的自定义模板渲染函数。
+
+测试👇
+
+curl.exe http://127.0.0.1:9999/date
+
+curl.exe http://127.0.0.1:9999/student
+
+curl.exe http://127.0.0.1:9999/
+
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
+
+## 七
+
+报错处理
+
+Go 语言还提供了 recover 函数，可以避免因为 panic 发生而导致整个程序终止，recover 函数只在 defer 中生效。
+
+手动触发 panic，中断执行，跳过后续代码，在退出前，会先处理完当前协程上已经defer 的任务,效果类似于 java 语言的 try...catch
+
+然后就是写了个报错的中间件Recovery在recovery.go，然后在engine那边新建个Default来应用这个中间件
+
 
