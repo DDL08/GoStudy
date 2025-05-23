@@ -5,6 +5,10 @@
 
 [![LICENSE](https://img.shields.io/badge/license-Apache--2.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
+![Build Status](https://github.com/DDL08/gopherfy/workflows/build/badge.svg) 
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/hupe1980/gopherfy.svg)](https://pkg.go.dev/github.com/hupe1980/gopherfy)
+
 
 <img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
 
