@@ -5,9 +5,6 @@
 
 [![LICENSE](https://img.shields.io/badge/license-Apache--2.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
-![Build Status](https://github.com/DDL08/gopherfy/workflows/build/badge.svg) 
-
-[![Go Reference](https://pkg.go.dev/badge/github.com/hupe1980/gopherfy.svg)](https://pkg.go.dev/github.com/hupe1980/gopherfy)
 
 
 <img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
@@ -105,10 +102,13 @@ Go 语言还提供了 recover 函数，可以避免因为 panic 发生而导致�
 
 然后就是写了个报错的中间件Recovery在recovery.go，然后在engine那边新建个Default来应用这个中间件
 
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
 
 # HTB系列
 
 就是在HTB上面有的题目的源码拿下来学习学习，以后做工具的时候可以参考
+
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
 
 ## J系列
 
@@ -134,3 +134,6 @@ fmt.Scan, fmt.Fscan → 从输入中读取数据
 二 flag
 
 用来弄工具的类似help，然后给参数绑定
+
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
+
