@@ -106,11 +106,19 @@ Go 语言还提供了 recover 函数，可以避免因为 panic 发生而导致�
 然后就是写了个报错的中间件Recovery在recovery.go，然后在engine那边新建个Default来应用这个中间件
 
 
+# HTB系列
+
+就是在HTB上面有的题目的源码拿下来学习学习，以后做工具的时候可以参考
+
 ## J系列
 
 此系列为基础篇
 
 ### J1输入输出流（io
+
+### J2是一些web的发包(web)
+
+### J3 是简单的nc的模拟版本
 
 #### fmt,os库
 一  fmt（format）库用于输入输出，相当于其他语言中的 printf、scanf 等，
@@ -122,3 +130,7 @@ fmt.Scan, fmt.Fscan → 从输入中读取数据
 二  os（operating system）
 
 提供对操作系统功能的访问，比如文件、环境变量、标准输入输出、退出程序等：
+
+二 flag
+
+用来弄工具的类似help，然后给参数绑定
