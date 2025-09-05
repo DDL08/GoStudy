@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package protobufapi;
+
+option go_package = "Z1/protobufapi;protobufapi";
+
+message Message {
+  string body = 1;
+}
+
+service ChatService {
+  rpc SayHello(Message) returns (Message);
+  rpc Test(Message) returns (Message);
+}
