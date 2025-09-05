@@ -138,7 +138,7 @@ fmt.Scan, fmt.Fscan → 从输入中读取数据
 <img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
 
 
-## J系列
+## Z系列
 
 此系列为远控前置篇，学习远控开发的基础知识
 
