@@ -137,3 +137,19 @@ fmt.Scan, fmt.Fscan → 从输入中读取数据
 
 <img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
 
+
+## J系列
+
+此系列为远控前置篇，学习远控开发的基础知识
+
+### Z1
+
+protobuf+grpc实现客户端服务端通信
+
+### Z2
+
+用Z1技术实现1-1-1的Client+Server+ImplantServer的远控通信
+
+
+
+<img src="https://github.com/DDL08/images/blob/main/hr.gif?raw=true" width="600px" />
